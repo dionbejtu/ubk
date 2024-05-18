@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			
+			.ubk {
+			background-color:#030b4d;
+			font-family: Arial, Helvetica, sans-serif;}
+
+
+			header {
+			background-color:#c3ceca;
+			color:#030b4d;
+			text-align:center;}
+
+			section {
+			line-height:100%;
+			width:60%;
+			float:right;
+			padding:1%;}
+			
+			aside{
+			margin-top:3%;
+			margin-left:3%;
+			width:35%;
+			height:80%;
+			float:left;}
+
+			footer {
+			background-color:#c3ceca;
+			color:#030b4d;
+			clear:both;
+			text-align:left;
+			padding:4%;}
+			
+			.meny-h ul{
+			display:inline-block;
+			list-style-type:none;
+			margin:1% auto;}
+			
+			.meny-h  {
+			width:100%;
+			background-color:transparent;
+			text-align:right;
+			position:fixed;
+			top:0;
+			right:1%;
+			}
+			
+			.meny-h  li {
+			list-style:none;
+			text-align:center;}
+			
+			.meny-h  a {
+			color:#c3ceca;
+			background-color:#030b4d;
+			text-decoration:none;}
+			
+			.meny-h  ul li {
+			display:inline-block;
+			position:relative;
+			font-size:20px;}
+			
+			.meny-h  ul li a {
+			padding:10px 33px;
+			display:inline-block;}
+			
+			.meny-h  ul li:hover a{
+			background-color:#088;
+			color:#030b4d}
+			
+			.meny-h  li:hover .sub-menu {
+			z-index:1;
+			display:block;}
+			
+			td {
+			  background-color: #088;}
+			  
+			#ora {
+			background-color:#c3ceca;
+			text-align:left;}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="ubk">
+			<header id="Ballina">
+				<svg width="100" height="100">
+					<defs>
+						<clipPath id="halfCircle">
+							<rect x="0" y="0" width="50" height="100"/>
+						</clipPath>
+					</defs>
+					
+					<circle cx="50" cy="50" r="45" stroke="#030b4d" stroke-width="4" fill="#088" clip-path="url(#halfCircle)"/>
+					<circle cx="50" cy="50" r="35" stroke="#c3ceca" stroke-width="4" fill="#c3ceca" clip-path="url(#halfCircle)"/>
+					<text fill="#030b4d" stroke="#088" font-size="90" font-family="serif" x="25" y="79">€</text>
+				</svg>
+			
+				<h1>Uebsite për Banka sipas Kredive (UBK)</h1>
+
+				<div id="ora">
+				</div>
+				<script src="Script/script.js">
+				</script>
+			</header>
+			
+			<nav class="meny-h">
+				<ul>
+					<li><a href="#Ballina">Ballina</a></li>
+					<li><a href="#Bankat">Bankat</a></li>
+					<li><a href="#Kontakti">Kontakti</a></li>
+				</ul>
+			</nav>
+			
+			<section id="Bankat">
+				<table>
+					
+					<tr> 
+					<h1 style="background-color:#034d4b; color:#c3ceca; text-align:center; padding:3%;">
+					Kreditë Personale</h1>
+					</tr>
+					
+					<tr>
+								<td>
+									<div style="color:#030b4d;">
+										<table>
+											<tr>
+												<td>
+												<img src="Foto/RBKO.png" style="width:100%;">
+												</td>
+													<td style="width:70%;">
+													<b>Banka:</b> Raiffeisen Bank <br>
+														<ul>
+															<li><b>Kredi konsumuese</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 1,000€ - 35,000€</li><br>
+															<li><b>Kredi për automjete</b><br>
+															<b>Shuma:</b> deri 80% e çmimit të automjetit</li><br>
+															<li><b>Kredi për banim</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 15,000€ - 350,000€</li>
+														</ul>
+													</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+
+									
+								<td>
+									<div style="color:#030b4d; ">
+										<table>	
+											<tr>
+												<td>
+												<img src="Foto/BPB.png" style="width:100%;">
+												</td>
+													<td style="width:70%;">
+													<b>Banka:</b> Banka për Biznes (BPB) <br>
+														<ul>
+															<li><b>Kredi konsumuese</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 500€ - 15,000€</li><br>
+															<li><b>Kredi për automjete</b><br>
+															<b>Shuma:</b> deri 80% çmimit të automjetit</li><br>
+															<li><b>Kredi për banim</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 10,000€ - 150,000€</li>
+														</ul>
+													</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+					</tr>
+				</table>
+				<table>
+					
+					<tr> 
+					<h2 style="background-color:#034d4b; color:#c3ceca; text-align:center; padding:3%;">
+					Kreditë Biznesore</h2>
+					</tr>
+					
+					<tr>						
+								<td>
+									<div style="color:#030b4d; ">
+										<table>	
+											<tr>
+												<td>
+												<img src="Foto/RBKO.png" style="width:100%;">
+												</td>
+													<td style="width:70%;">
+													<b>Banka:</b> Raiffeisen Bank <br>
+														<ul>
+															<li><b>Kredi për investim</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 10,000€ - 120,000€</li><br>
+															<li><b>Kredi për kapital punues</b><br>
+															<b>Shuma:</b> (min - max)<b>:</b> 10,000€ - 120,000€</li><br>
+															<li><b>Kredi për bujqësi</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 5,000€ - 30,000€</li>
+														</ul>
+													</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+								
+									
+								<td>
+									<div style="color:#030b4d; ">
+										<table>	
+											<tr>
+												<td>
+												<img src="Foto/BPB.png" style="width:100%;">
+												</td>
+													<td style="width:70%;">
+													<b>Banka:</b> Banka për Biznes (BPB) <br>
+														<ul>
+															<li><b>Kredi për investim</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 3,000€ - 150,000€</li><br>
+															<li><b>Kredi për kapital punues</b><br>
+															<b>Shuma:</b> (min - max)<b>:</b> 3,000€ - 150,000€</li><br>
+															<li><b>Kredi për bujqësi</b><br>
+															<b>Shuma</b> (min - max)<b>:</b> 1,000€ - 150,000€</li>
+														</ul>
+													</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+					</tr>
+					
+				</table>
+			</section>
+			
+			<aside>
+			
+			<h2 style=" background-color:#034d4b; color:#c3ceca; margin-right:5%; text-align:center;" >Hapsirë reklamuese</h2>
+			<br>
+				<video width="95%" autoplay muted loop>
+					<source src="Video/rbko1.mp4">
+				</video><br><br>
+				
+				<video width="95%" autoplay muted loop>
+					<source src="Video/bpbvideo1.mp4">
+				</video>
+				<br><br>
+				
+				<audio controls loop>
+					<source src="Audio/audio.mp3" type="audio/mpeg">
+				</audio>
+				
+			</aside>
+
+			<section id="Kontakti">
+				<table>
+						<tr>
+							<td style="width:100%;">
+									<form action="#" method="post" style="margin-left:20%; margin-top:0;">
+										
+										<h2 style="background-color:#034d4b; color:#c3ceca; padding:2%;"> 
+										Forma për kontakt</h2>
+										<br>
+										
+										<input type="text" placeholder="Klienti" style="margin: 0%; width: 50%; height: 60%;">
+										<br><br>
+										
+										<input type="text" placeholder="Nr. i llogarisë" style="margin: 0%; width: 50%; height: 60%;">
+										<br><br>
+										 
+										<textarea style="margin: 0%; width: 90%;">
+										Kërkesa e klientit
+										</textarea>
+										<br><br>
+										
+										<button style="background-color:#034d4b; color:#c3ceca;" type="button" onclick="alert('Kërkesa u dërgua me sukses!')">
+										Dërgo</button>
+										
+									</form>
+							</td>
+							
+							<td>
+									<div class="mapouter">
+										<div class="s-harta">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.0986714963515!2d21.453518176004728!3d42.46819007118312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548d3cce816953%3A0x14cdc07dafb77805!2sRruga%20Muharrem%20Ibrahimi%2C%20Gjilan!5e0!3m2!1sen!2s!4v1715448850658!5m2!1sen!2s" 
+											width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						
+											<a href="https://www.embedgooglemap.net" target="_blank" style="color:#030b4d;"> Google Map në Uebsite</a>
+											<style>.s-harta {overflow:hidden;background:none!important;height:500px;width:500px;}</style>
+										</div>
+									</div>
+							</td>
+						</tr>
+					</table>
+			</section>
+
+				<footer>
+					
+					<b>Copyright</b> &#169 <b>UBK</b>
+					<br>
+					
+					Referencat: <a href="https://www.bpbbank.com/" target="_blank">
+					Info</a>; <a href="https://www.raiffeisen-kosovo.com/sq/individe.html" target="_blank">Info</a> | 
+					<a href="https://play.google.com/store/apps/details?id=eu.newfrontier.iBanking.mobile.RZBAL&hl=en_US"
+					target="_blank">Foto</a>; 
+					<a href="https://www.facebook.com/bpb.bank/photos/a.1404858709785334/1854667938137740/?type=3" target="_blank">
+					Foto</a> | 
+					<a href="https://www.facebook.com/RaiffeisenKosova/videos/830313555805462" target="_blank">Video</a>; 
+					<a href="https://www.facebook.com/bpb.bank/videos/902418781577593" target="_blank">Video</a>
+					
+				</footer>
+		</div>	
+	</body>
+</html>
